@@ -2,7 +2,7 @@ package method;
 
 import java.util.Scanner;
 
-public class kitty {
+public class restaurant {
 	public static void menu(int collectp, int collectck, int collectcoke, int pay) {
 		System.out.print("+------ Menu ------+---- Qty ----+----- Price --+\n");
 		if (collectp > 0)
