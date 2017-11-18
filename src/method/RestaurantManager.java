@@ -1,3 +1,8 @@
+/**
+ * RestaurantManager class read menu from file 
+ * and collect in Prices and MenuItems array 
+ * to manage OrderMenu class
+ */
 package method;
 
 import java.io.InputStream;
