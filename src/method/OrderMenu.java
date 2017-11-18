@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class OrderMenu {
 
-	static private restaurantManager file = new restaurantManager();
+	static private RestaurantManager file = new RestaurantManager();
 	static private Scanner scan = new Scanner(System.in);
 
 	static double[] prices;
