@@ -11,7 +11,7 @@ public class OrderMenu {
 
 	static double[] prices;
 	static String[] menuItems;
-	static double[] collect;
+	static int[] collect;
 	
 
 	
@@ -21,7 +21,7 @@ public class OrderMenu {
 
 	public static void setOrder() {
 		menuItems = file.getMenuItems();
-		collect = new double[menuItems.length];
+		collect = new int[menuItems.length];
 	}
 
 	public static int getIntReply(String prompt) {
@@ -61,7 +61,7 @@ public class OrderMenu {
 		System.out.print("+------ Menu --------+------ Qty --------+----- Price --+\n");
 		for (int i = 0; i < menuItems.length; i++) {
 			if (collect[i] > 0)
-				System.out.printf("|%-20s|%-7s%2.0f%-9s |%-6s%5.0f\t|\n", menuItems[i], "", collect[i], "", "",
+				System.out.printf("|%-20s|%-7s%2d%-9s |%-6s%5.0f\t|\n", menuItems[i], "", collect[i], "", "",
 						collect[i] * prices[i]);
 		}
 		System.out.print("+-------------------------------------------------------+\n");
