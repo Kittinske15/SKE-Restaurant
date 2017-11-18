@@ -92,7 +92,7 @@ public class OrderMenu {
 				break;
 			if (choice.charAt(0) > 48 && choice.charAt(0) < 57) {
 				int choicenum = Integer.parseInt(choice);
-				int quan = getIntReply("Enter you Quantity: ");
+				int quan = getIntReply("Enter your Quantity: ");
 				collect[choicenum - 1] += quan;
 			}
 
