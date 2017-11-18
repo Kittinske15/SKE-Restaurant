@@ -1,3 +1,7 @@
+/**
+ * totalItems class contains attributes, constructor 
+ * and behaviors for OrderMenu management.
+ */
 package method;
 
 public class totalItems {
